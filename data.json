@@ -1,0 +1,29 @@
+[
+    {
+        "label": "Test-App",
+        "description": "Some sample app",
+        "host": "testapp",
+        "name": "testapp",
+        "port": 3000,
+        "image": "radyak/radshift-testapp:x86-latest",
+        "entry": ""
+    },
+    {
+        "label": "Portainer",
+        "description": "Client w/ UI to inspect and manage Docker containers",
+        "host": "portainer",
+        "name": "portainer",
+        "port": 9000,
+        "image": "portainer/portainer",
+        "entry": ""
+    },
+    {
+        "label": "Mongo DB Client",
+        "description": "Client w/ UI to work with Mongo DB",
+        "host": "mongoclient",
+        "name": "mongoclient",
+        "port": 3000,
+        "image": "mongoclient/mongoclient",
+        "entry": ""
+    }
+]

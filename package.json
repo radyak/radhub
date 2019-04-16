@@ -1,0 +1,23 @@
+{
+  "name": "radhub",
+  "version": "0.0.1",
+  "description": "The central hub for public RadShift app information",
+  "main": "index.js",
+  "directories": {},
+  "repository": "https://github.com/radyak/radhub",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo No Tests",
+    "watch": "PORT=3322 nodemon ./index.js localhost",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "florian.vogel84@gmx.net",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
