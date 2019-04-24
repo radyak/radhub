@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=node:8
+ARG BASE_IMAGE=node:lts-alpine
 
 FROM ${BASE_IMAGE}
 

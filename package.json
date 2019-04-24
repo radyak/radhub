@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo No Tests",
-    "watch": "PORT=3322 nodemon ./index.js localhost",
+    "watch": "PORT=4010 nodemon ./index.js localhost",
     "preversion": "npm test",
     "postversion": "git push && git push --tags"
   },
