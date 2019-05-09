@@ -4,7 +4,7 @@
         "description": "Some sample app",
         "host": "testapp",
         "name": "testapp",
-        "port": 3000,
+        "port": 3210,
         "image": "radyak/radshift-testapp:x86-latest",
         "entry": ""
     },
