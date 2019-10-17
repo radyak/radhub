@@ -2,8 +2,6 @@ ARG BASE_IMAGE=node:lts-alpine
 
 FROM ${BASE_IMAGE}
 
-COPY ./qemu-arm-static /usr/bin/qemu-arm-static
-
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install --only=production
