@@ -15,7 +15,7 @@
   "author": "florian.vogel84@gmx.net",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
